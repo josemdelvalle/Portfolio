@@ -1,15 +1,29 @@
+
+body {background-color: #dbe0f1 ;}
+
+.welcomeNav{
+  color:white;
+  background-color: rgb(6, 21, 54);
+}
+
+
 .titleCard{
     height: auto;
-    background-color: #212529c9;
+    background-color: #fffffff3;
     border-radius: 5px;
-    color: white;
+    color:black;
     width: auto;
+}
+.borderRadius{
+  border-radius: 5px;
 }
 .socialMedia a{
 
-color: grey;
+color: rgb(255, 248, 248);
+
 
 }
+
 .dropdown {
  
     display: inline-block;
