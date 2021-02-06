@@ -1,3 +1,23 @@
+$(document).ready(function(){
+  $( "#contact" ).load( "contact.html" );
+  $( "#projects" ).load( "projects.html" );
+  $( "#resume" ).load( "resume.html" );
+ });
+
+function swicthTab(evt, currentTab) {
+  console.log("clicked");
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+    
+  }
+  document.getElementById(currentTab).style.display = "block";
+ 
+}
+
+document.getElementById("defaultOpen").click(); 
+
 var copyText;
 function copyFunction(text){
 copyText=text
