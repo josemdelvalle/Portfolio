@@ -33,6 +33,11 @@ body {
   width: 100%;
  
 }
+.resumeContainer{
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-top: 5%;
+}
 
 #profilePicture {
   
